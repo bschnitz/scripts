@@ -7,8 +7,7 @@ class I3Workspaces
       signal: { class: 'Signal', number: 5 },
       skype:  { class: 'Skype', number: 6 },
       teams: { class: 'Microsoft Teams - Preview', number: 7 },
-      notes:  { number: 10 },
-      md:  { class: ['Zettlr', 'Abricotine'], number: 12 },
+      notes:  { class: ['Zettlr', 'Abricotine'], number: 10 },
       dev:    { number: 20 },
       mysql_wb: { class: 'Mysql-workbench-bin', number: 25 },
       www: { class: ['qutebrowser', 'firefox'], number: 30 },
@@ -26,6 +25,10 @@ class I3Workspaces
     }
   end
 
+  def get_workspace_name(key)
+    "#{@workspaces[key][:number].to_s.rjust(2, '0')}_#{key}"
+  end
+
   def print_rules()
     rules = []
     @workspaces.each do |key, conf|
@@ -33,7 +36,7 @@ class I3Workspaces
 
       classes = conf[:class].is_a?(Array) ? conf[:class] : [conf[:class]]
       classes.each do |cls|
-        workspace = "#{conf[:number].to_s.rjust(2, '0')}_#{key}"
+        workspace = self.get_workspace_name(key)
         rules.push(["[class=\"#{cls}\"]", workspace])
       end
     end
@@ -45,7 +48,17 @@ class I3Workspaces
       puts "assign #{criteria} → #{rule[1]}"
     end
   end
+
+  def print_workspace_list()
+    @workspaces.each do |key, conf|
+      puts self.get_workspace_name(key)
+    end
+  end
 end
 
 ws = I3Workspaces.new
-ws.print_rules
+if ARGV[0] == 'rules' then
+  ws.print_rules()
+else
+  ws.print_workspace_list()
+end
