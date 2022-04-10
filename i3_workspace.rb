@@ -1,17 +1,21 @@
 #!/usr/bin/env ruby
 
+require 'open3'
+
 class I3Workspaces
   def initialize
     @workspaces = {
+      dev:    { number: 20 },
+      notes:  { class: ['Zettlr', 'Abricotine'], number: 10 },
+      conf: { number: 15 },
+
       thunderbird: { class: 'Thunderbird', number: 0 },
       signal: { class: 'Signal', number: 5 },
       skype:  { class: 'Skype', number: 6 },
       teams: { class: 'Microsoft Teams - Preview', number: 7 },
-      notes:  { class: ['Zettlr', 'Abricotine'], number: 10 },
-      dev:    { number: 20 },
       mysql_wb: { class: 'Mysql-workbench-bin', number: 25 },
       www: { class: ['qutebrowser', 'firefox'], number: 30 },
-      pass: { class: 'Keepassx', number: 35 },
+      pass: { class: 'KeePassXC', number: 35 },
       Xsane: { class: 'Xsane', number: 40 },
       xsane: { class: 'xsane', number: 45 },
       tasks: { class: 'abeluna', number: 50 },
@@ -19,7 +23,6 @@ class I3Workspaces
       dosbox: { class: 'dosbox', number: 70 },
       mediathek: { class: ['mediathek-Main', 'MediathekView'], number: 80 },
       calibre: { class: 'calibre', number: 82 },
-      config: { number: 88 },
       blueman: { class: 'Blueman-manager', number: 90 },
       x3: { class: 'X3R_config', number: 92 },
     }
@@ -49,16 +52,33 @@ class I3Workspaces
     end
   end
 
-  def print_workspace_list()
-    @workspaces.each do |key, conf|
-      puts self.get_workspace_name(key)
+  def get_workspace_list()
+    @workspaces.map do |key, conf|
+      self.get_workspace_name(key)
     end
+  end
+
+  def print_workspace_list()
+    puts self.get_workspace_list.join("\n")
+  end
+
+  def switcher()
+    workspace = ''
+    Open3.popen3('rofi -dmenu') do |stdin, stdout|
+      stdin.write(self.get_workspace_list.join("\n"))
+      stdin.close
+      workspace = stdout.read
+    end
+    `i3-msg move window to workspace #{workspace}`
   end
 end
 
 ws = I3Workspaces.new
-if ARGV[0] == 'rules' then
+case ARGV[0]
+when 'rules'
   ws.print_rules()
+when 'switcher'
+  ws.switcher
 else
   ws.print_workspace_list()
 end
