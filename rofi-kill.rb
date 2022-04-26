@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# frozen_string_literal: true
+
 apps = {
   teams: 'killall -9 teams',
   firefox: 'killall -9 firefox',

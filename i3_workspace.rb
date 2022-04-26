@@ -1,17 +1,19 @@
 #!/usr/bin/env ruby
 
+# frozen_string_literal: true
+
 require 'open3'
 
 class I3Workspaces
   def initialize
     @workspaces = {
-      dev:    { number: 20 },
-      notes:  { class: ['Zettlr', 'Abricotine'], number: 10 },
+      dev: { number: 20 },
+      notes: { class: %w[Zettlr Abricotine], number: 10 },
       conf: { number: 15 },
 
       thunderbird: { class: 'Thunderbird', number: 0 },
       signal: { class: 'Signal', number: 5 },
-      skype:  { class: 'Skype', number: 6 },
+      skype: { class: 'Skype', number: 6 },
       teams: { class: 'Microsoft Teams - Preview', number: 7 },
       sql: { class: 'Mysql-workbench-bin', number: 32 },
       www: { class: 'qutebrowser', number: 28 },
@@ -24,12 +26,12 @@ class I3Workspaces
       tasks: { class: 'abeluna', number: 50 },
       wine: { class: 'explorer.exe', number: 60 },
       dosbox: { class: 'dosbox', number: 70 },
-      mediathek: { class: ['mediathek-Main', 'MediathekView'], number: 80 },
+      mediathek: { class: %w[mediathek-Main MediathekView], number: 80 },
       calibre: { class: 'calibre', number: 82 },
       weather: { class: 'Org.gnome.Weather', number: 86 },
       server: { number: 88 },
       blueman: { class: 'Blueman-manager', number: 90 },
-      x3: { class: 'X3R_config', number: 92 },
+      x3: { class: 'X3R_config', number: 92 }
     }
   end
 
@@ -37,14 +39,14 @@ class I3Workspaces
     "#{@workspaces[key][:number].to_s.rjust(2, '0')}_#{key}"
   end
 
-  def print_rules()
+  def print_rules
     rules = []
     @workspaces.each do |key, conf|
       next unless conf[:class]
 
       classes = conf[:class].is_a?(Array) ? conf[:class] : [conf[:class]]
       classes.each do |cls|
-        workspace = self.get_workspace_name(key)
+        workspace = get_workspace_name(key)
         rules.push(["[class=\"#{cls}\"]", workspace])
       end
     end
@@ -57,20 +59,20 @@ class I3Workspaces
     end
   end
 
-  def get_workspace_list()
-    @workspaces.map do |key, conf|
-      self.get_workspace_name(key)
+  def workspace_list
+    @workspaces.map do |key, _conf|
+      get_workspace_name(key)
     end
   end
 
-  def print_workspace_list()
-    puts self.get_workspace_list.join("\n")
+  def print_workspace_list
+    puts workspace_list.join("\n")
   end
 
-  def switcher()
+  def switcher
     workspace = ''
     Open3.popen3('rofi -dmenu') do |stdin, stdout|
-      stdin.write(self.get_workspace_list.join("\n"))
+      stdin.write(workspace_list.join("\n"))
       stdin.close
       workspace = stdout.read
     end
@@ -81,9 +83,9 @@ end
 ws = I3Workspaces.new
 case ARGV[0]
 when 'rules'
-  ws.print_rules()
+  ws.print_rules
 when 'switcher'
   ws.switcher
 else
-  ws.print_workspace_list()
+  ws.print_workspace_list
 end

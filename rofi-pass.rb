@@ -1,12 +1,14 @@
 #!/usr/bin/env ruby
 
+# frozen_string_literal: true
+
 require 'open3'
 
-passwords = Dir.glob("**/*.gpg", base: "#{Dir.home}/.password-store")
+passwords = Dir.glob('**/*.gpg', base: "#{Dir.home}/.password-store")
 passwords.map! { |p| p.chomp.chomp('.gpg') }
 
 selection = ''
-Open3.popen3("rofi -dmenu") do |stdin, stdout, stderr|
+Open3.popen3('rofi -dmenu') do |stdin, stdout, _stderr|
   stdin.write(passwords.join("\n"))
   stdin.close
   selection = stdout.read.chomp
@@ -18,4 +20,4 @@ exit if selection.empty?
 `xsel -c`
 
 # spawn pass as background task, as it otherwise blocks
-Process.detach Process.spawn("pass", "-c", selection)
+Process.detach Process.spawn('pass', '-c', selection)
