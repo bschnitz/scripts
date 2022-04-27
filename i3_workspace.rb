@@ -15,7 +15,7 @@ class I3Workspaces
       signal: { class: 'Signal', number: 5 },
       skype: { class: 'Skype', number: 6 },
       teams: { class: 'Microsoft Teams - Preview', number: 7 },
-      sql: { class: 'Mysql-workbench-bin', number: 32 },
+      sql: { class: %w[Mysql-workbench-bin SQLiteStudio], number: 32 },
       www: { class: 'qutebrowser', number: 28 },
       fox: { class: 'firefox', number: 30 },
       tube: { class: 'Minitube', number: 32 },
