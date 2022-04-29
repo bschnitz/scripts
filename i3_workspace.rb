@@ -10,6 +10,7 @@ class I3Workspaces
       dev: { number: 20 },
       notes: { class: %w[Zettlr Abricotine], number: 10 },
       conf: { number: 15 },
+      test: { number: 17 },
 
       thunderbird: { class: 'Thunderbird', number: 0 },
       signal: { class: 'Signal', number: 5 },
