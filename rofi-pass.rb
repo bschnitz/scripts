@@ -19,5 +19,12 @@ exit if selection.empty?
 # clear selection, since I otherwise often accidentially insert that on paste
 `xsel -c`
 
-# spawn pass as background task, as it otherwise blocks
-Process.detach Process.spawn('pass', '-c', selection)
+IO.popen("pass -c #{selection}", 'r') do |pipe|
+  # create a wait dialog until password was copied
+  zenity = fork do
+    exec 'zenity --info --text="Einen Moment ..."'
+  end
+  output = pipe.gets
+  puts output
+  Process.kill('HUP', zenity)
+end
