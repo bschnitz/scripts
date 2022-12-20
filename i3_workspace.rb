@@ -7,16 +7,20 @@ require 'open3'
 class I3Workspaces
   def initialize
     @workspaces = {
+      # those are (sometimes) directly created by me and shoul appear at the
+      # start of the menu, thus they are on top of this list
       dev: { number: 20 },
       notes: { class: %w[Zettlr Abricotine], number: 10 },
       conf: { number: 15 },
       test: { number: 17 },
+      'dev-moves': { number: 21 },
+      'dev-moves-mobile': { number: 22 },
 
-      thunderbird: { class: 'Thunderbird', number: 0 },
-      signal: { class: 'Signal', number: 5 },
+      thunderbird: { number: 0, class: 'thunderbird' },
+      signal: { number: 5, class: 'Signal' },
       skype: { class: 'Skype', number: 6 },
       teams: { class: 'Microsoft Teams - Preview', number: 7 },
-      sql: { class: %w[Mysql-workbench-bin SQLiteStudio], number: 32 },
+      db: { number: 19, class: %w[Mysql-workbench-bin SQLiteStudio DBeaver] },
       www: { class: 'qutebrowser', number: 28 },
       fox: { class: 'firefox', number: 30 },
       vnc: { class: 'Vncviewer', number: 34 },
@@ -33,7 +37,8 @@ class I3Workspaces
       weather: { class: 'Org.gnome.Weather', number: 86 },
       server: { number: 88 },
       blueman: { class: 'Blueman-manager', number: 90 },
-      x3: { class: 'X3R_config', number: 92 }
+      x3: { class: 'X3R_config', number: 92 },
+      sr: { class: 'SimpleScreenRecorder', number: 99 }
     }
   end
 
