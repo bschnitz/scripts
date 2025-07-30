@@ -1,0 +1,4 @@
+#!/bin/bash
+xrandr --delmonitor SMALLER
+xrandr --output eDP-1 --mode 1920x1080
+xrandr --output eDP-1 --transform "1,0,0,0,1,0,0,0,1"

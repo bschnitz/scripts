@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Draconia - Done"
+cd /home/ben/Downloads/New_Horizons_22.0630.a/
+wine Eador.exe

@@ -1,0 +1,1377 @@
+{
+    : id => 94783941615184,: type => "root",: orientation => "horizontal",: scratchpad_state => "none",: percent => nil,: urgent => false,: marks => [],: focused => false,: layout => "splith",: workspace_layout => "default",: last_split_layout => "splith",: border => "pixel",: current_border_width => -1,: rect => {
+        : x => 0,: y => 0,: width => 1920,: height => 1080
+    },: deco_rect => {
+        : x => 0,: y => 0,: width => 0,: height => 0
+    },: window_rect => {
+        : x => 0,: y => 0,: width => 0,: height => 0
+    },: geometry => {
+        : x => 0,: y => 0,: width => 0,: height => 0
+    },: name => "root",: window_icon_padding => -1,: window => nil,: window_type => nil,: nodes => [{
+        : id => 94783941616752,
+        : type => "output",
+        : orientation => "none",
+        : scratchpad_state => "none",
+        : percent => 0.5,
+        : urgent => false,
+        : marks => [],
+        : focused => false,
+        : layout => "output",
+        : workspace_layout => "default",
+        : last_split_layout => "splith",
+        : border => "pixel",
+        : current_border_width => -1,
+        : rect => {
+            : x => 0,: y => 0,: width => 1920,: height => 1080
+        },
+        : deco_rect => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : window_rect => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : geometry => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : name => "__i3",
+        : window_icon_padding => -1,
+        : window => nil,
+        : window_type => nil,
+        : nodes => [{
+            : id => 94783941619856,
+            : type => "con",
+            : orientation => "horizontal",
+            : scratchpad_state => "none",
+            : percent => nil,
+            : urgent => false,
+            : marks => [],
+            : focused => false,
+            : output => "__i3",
+            : layout => "splith",
+            : workspace_layout => "default",
+            : last_split_layout => "splith",
+            : border => "pixel",
+            : current_border_width => -1,
+            : rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : deco_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : window_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : geometry => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : name => "content",
+            : window_icon_padding => -1,
+            : window => nil,
+            : window_type => nil,
+            : nodes => [{
+                : id => 94783941622960,
+                : type => "workspace",
+                : orientation => "none",
+                : scratchpad_state => "none",
+                : percent => nil,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "__i3",
+                : layout => "splith",
+                : workspace_layout => "default",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "__i3_scratch",
+                : window_icon_padding => -1,
+                : num => -1,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [],
+                : floating_nodes => [],
+                : focus => [],
+                : fullscreen_mode => 1,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }],
+            : floating_nodes => [],
+            : focus => [94783941622960],
+            : fullscreen_mode => 0,
+            : sticky => false,
+            : floating => "auto_off",
+            : swallows => []
+        }],
+        : floating_nodes => [],
+        : focus => [94783941619856],
+        : fullscreen_mode => 0,
+        : sticky => false,
+        : floating => "auto_off",
+        : swallows => []
+    }, {
+        : id => 94783941626064,
+        : type => "output",
+        : orientation => "none",
+        : scratchpad_state => "none",
+        : percent => 0.5,
+        : urgent => false,
+        : marks => [],
+        : focused => false,
+        : layout => "output",
+        : workspace_layout => "default",
+        : last_split_layout => "splith",
+        : border => "pixel",
+        : current_border_width => -1,
+        : rect => {
+            : x => 0,: y => 0,: width => 1920,: height => 1080
+        },
+        : deco_rect => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : window_rect => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : geometry => {
+            : x => 0,: y => 0,: width => 0,: height => 0
+        },
+        : name => "eDP-1",
+        : window_icon_padding => -1,
+        : window => nil,
+        : window_type => nil,
+        : nodes => [{
+            : id => 94783941629168,
+            : type => "dockarea",
+            : orientation => "none",
+            : scratchpad_state => "none",
+            : percent => nil,
+            : urgent => false,
+            : marks => [],
+            : focused => false,
+            : output => "eDP-1",
+            : layout => "dockarea",
+            : workspace_layout => "default",
+            : last_split_layout => "splith",
+            : border => "pixel",
+            : current_border_width => -1,
+            : rect => {
+                : x => 0,: y => 0,: width => 1920,: height => 0
+            },
+            : deco_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : window_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : geometry => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : name => "topdock",
+            : window_icon_padding => -1,
+            : window => nil,
+            : window_type => nil,
+            : nodes => [],
+            : floating_nodes => [],
+            : focus => [],
+            : fullscreen_mode => 0,
+            : sticky => false,
+            : floating => "auto_off",
+            : swallows => [{
+                : dock => 2,
+                : insert_where => 2
+            }]
+        }, {
+            : id => 94783941632272,
+            : type => "con",
+            : orientation => "horizontal",
+            : scratchpad_state => "none",
+            : percent => nil,
+            : urgent => false,
+            : marks => [],
+            : focused => false,
+            : output => "eDP-1",
+            : layout => "splith",
+            : workspace_layout => "default",
+            : last_split_layout => "splith",
+            : border => "pixel",
+            : current_border_width => -1,
+            : rect => {
+                : x => 0,: y => 0,: width => 1920,: height => 1053
+            },
+            : deco_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : window_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : geometry => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : name => "content",
+            : window_icon_padding => -1,
+            : window => nil,
+            : window_type => nil,
+            : nodes => [{
+                : id => 94783941877568,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.03125,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "00_thunderbird",
+                : window_icon_padding => -1,
+                : num => 0,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783941972368,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941878032,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 1.0,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1053
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 1,: width => 1918,: height => 1051
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1051
+                        },
+                        : name => "Inbox - bschnitzler@kemas.de - Mozilla Thunderbird",
+                        : window_icon_padding => -1,
+                        : window => 54526009,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "thunderbird",: instance => "Mail",: window_role => "3pane",: machine => "atana",: title => "Inbox - bschnitzler@kemas.de - Mozilla Thunderbird",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941878032],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [],
+                : focus => [94783941972368],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }, {
+                : id => 94783941861488,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.0625,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "05_signal",
+                : window_icon_padding => -1,
+                : num => 5,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783941865760,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941863056,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => nil,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1053
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 1,: width => 1918,: height => 1051
+                        },
+                        : geometry => {
+                            : x => 1,: y => 20,: width => 1918,: height => 1032
+                        },
+                        : name => "Signal",
+                        : window_icon_padding => -1,
+                        : window => 35651586,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "Signal",: instance => "signal",: window_role => "browser-window",: machine => "atana",: title => "Signal",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941863056],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [],
+                : focus => [94783941865760],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }, {
+                : id => 94783941568528,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.125,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "07_teams",
+                : window_icon_padding => -1,
+                : num => 7,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783941724080,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941987600,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "…/work/kemas/leistungsnachweise",
+                        : window_icon_padding => -1,
+                        : window => 58720270,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "…/work/kemas/leistungsnachweise",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783941978384,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 480,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "…/projects/work/kemas",
+                        : window_icon_padding => -1,
+                        : window => 52428814,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "…/projects/work/kemas",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783942167280,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "none",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 960,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 1,: y => 20,: width => 1918,: height => 1032
+                        },
+                        : name => "DevOPS Daily - Phase 2 | Microsoft Teams",
+                        : window_icon_padding => -1,
+                        : window => 20971525,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "Microsoft Teams - Preview",: instance => "microsoft teams - preview",: window_role => "browser-window",: machine => "atana",: title => "DevOPS Daily - Phase 2 | Microsoft Teams",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783941729360,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 1440,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "bluetoothctl",
+                        : window_icon_padding => -1,
+                        : window => 25165838,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "bluetoothctl",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941987600, 94783941978384, 94783942167280, 94783941729360],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [],
+                : focus => [94783941724080],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }, {
+                : id => 94783941650160,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.03125,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "20_dev",
+                : window_icon_padding => -1,
+                : num => 20,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783941653856,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941653392,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "vim i3_notes.rb",
+                        : window_icon_padding => -1,
+                        : window => 12582926,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "vim i3_notes.rb",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783942295392,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 480,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "vim keybindings.conf",
+                        : window_icon_padding => -1,
+                        : window => 73400334,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "vim keybindings.conf",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783941970640,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => true,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 960,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 998,: height => 498
+                        },
+                        : name => "./i3_notes.rb > out.json",
+                        : window_icon_padding => -1,
+                        : window => 16777230,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "./i3_notes.rb > out.json",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }, {
+                        : id => 94783941328832,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 0.25,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1033
+                        },
+                        : deco_rect => {
+                            : x => 1440,: y => 0,: width => 480,: height => 20
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 1918,: height => 1032
+                        },
+                        : name => "~",
+                        : window_icon_padding => -1,
+                        : window => 67108878,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "kitty",: machine => "atana",: title => "~",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941970640, 94783942295392, 94783941653392, 94783941328832],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [{
+                    : id => 94783941059024,
+                    : type => "floating_con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => nil,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "splith",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 460,: y => 276,: width => 1000,: height => 500
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783942143504,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 1.0,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 460,: y => 276,: width => 1000,: height => 500
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 0,: height => 0
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 1,: width => 998,: height => 498
+                        },
+                        : geometry => {
+                            : x => 0,: y => 0,: width => 998,: height => 498
+                        },
+                        : name => "nvim",
+                        : window_icon_padding => -1,
+                        : window => 62914574,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "kitty",: instance => "my_note_collection",: machine => "atana",: title => "nvim",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "user_on",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783942143504],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : focus => [94783941653856, 94783941059024],
+                : fullscreen_mode => 1,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }, {
+                : id => 94783941306288,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.25,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "28_www",
+                : window_icon_padding => -1,
+                : num => 28,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783941183536,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941183072,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => 1.0,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1053
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 1,: width => 1918,: height => 1051
+                        },
+                        : geometry => {
+                            : x => 1,: y => 20,: width => 1918,: height => 1032
+                        },
+                        : name => "i3: i3 User’s Guide - qutebrowser",
+                        : window_icon_padding => -1,
+                        : window => 29360165,
+                        : window_type => "normal",
+                        : window_properties => {
+                            : class => "qutebrowser",: instance => "qutebrowser",: machine => "atana",: title => "i3: i3 User’s Guide - qutebrowser",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941183072],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [],
+                : focus => [94783941183536],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }, {
+                : id => 94783941887616,
+                : type => "workspace",
+                : orientation => "horizontal",
+                : scratchpad_state => "none",
+                : percent => 0.5,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "tabbed",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => -1,
+                : rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 1053
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : geometry => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : name => "34_vnc",
+                : window_icon_padding => -1,
+                : num => 34,
+                : gaps => {
+                    : inner => 0,: outer => 0,: top => 0,: right => 0,: bottom => 0,: left => 0
+                },
+                : window => nil,
+                : window_type => nil,
+                : nodes => [{
+                    : id => 94783942015296,
+                    : type => "con",
+                    : orientation => "horizontal",
+                    : scratchpad_state => "none",
+                    : percent => 1.0,
+                    : urgent => false,
+                    : marks => [],
+                    : focused => false,
+                    : output => "eDP-1",
+                    : layout => "tabbed",
+                    : workspace_layout => "default",
+                    : last_split_layout => "splith",
+                    : border => "pixel",
+                    : current_border_width => -1,
+                    : rect => {
+                        : x => 0,: y => 0,: width => 1920,: height => 1053
+                    },
+                    : deco_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : window_rect => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : geometry => {
+                        : x => 0,: y => 0,: width => 0,: height => 0
+                    },
+                    : name => nil,
+                    : window_icon_padding => -1,
+                    : window => nil,
+                    : window_type => nil,
+                    : nodes => [{
+                        : id => 94783941982624,
+                        : type => "con",
+                        : orientation => "none",
+                        : scratchpad_state => "none",
+                        : percent => nil,
+                        : urgent => false,
+                        : marks => [],
+                        : focused => false,
+                        : output => "eDP-1",
+                        : layout => "splith",
+                        : workspace_layout => "default",
+                        : last_split_layout => "splith",
+                        : border => "pixel",
+                        : current_border_width => 1,
+                        : rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1053
+                        },
+                        : deco_rect => {
+                            : x => 0,: y => 0,: width => 1920,: height => 1
+                        },
+                        : window_rect => {
+                            : x => 1,: y => 1,: width => 1918,: height => 1051
+                        },
+                        : geometry => {
+                            : x => 0,: y => 20,: width => 1920,: height => 1040
+                        },
+                        : name => "KEM-AP49-NB - TigerVNC",
+                        : window_icon_padding => -1,
+                        : window => 60817435,
+                        : window_type => "unknown",
+                        : window_properties => {
+                            : class => "Vncviewer",: instance => "vncviewer",: machine => "atana",: title => "KEM-AP49-NB - TigerVNC",: transient_for => nil
+                        },
+                        : nodes => [],
+                        : floating_nodes => [],
+                        : focus => [],
+                        : fullscreen_mode => 0,
+                        : sticky => false,
+                        : floating => "auto_off",
+                        : swallows => []
+                    }],
+                    : floating_nodes => [],
+                    : focus => [94783941982624],
+                    : fullscreen_mode => 0,
+                    : sticky => false,
+                    : floating => "auto_off",
+                    : swallows => []
+                }],
+                : floating_nodes => [],
+                : focus => [94783942015296],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }],
+            : floating_nodes => [],
+            : focus => [94783941650160, 94783941306288, 94783941568528, 94783941861488, 94783941877568, 94783941887616],
+            : fullscreen_mode => 0,
+            : sticky => false,
+            : floating => "auto_off",
+            : swallows => []
+        }, {
+            : id => 94783941635504,
+            : type => "dockarea",
+            : orientation => "none",
+            : scratchpad_state => "none",
+            : percent => nil,
+            : urgent => false,
+            : marks => [],
+            : focused => false,
+            : output => "eDP-1",
+            : layout => "dockarea",
+            : workspace_layout => "default",
+            : last_split_layout => "splith",
+            : border => "pixel",
+            : current_border_width => -1,
+            : rect => {
+                : x => 0,: y => 1053,: width => 1920,: height => 27
+            },
+            : deco_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : window_rect => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : geometry => {
+                : x => 0,: y => 0,: width => 0,: height => 0
+            },
+            : name => "bottomdock",
+            : window_icon_padding => -1,
+            : window => nil,
+            : window_type => nil,
+            : nodes => [{
+                : id => 94783941858848,
+                : type => "con",
+                : orientation => "none",
+                : scratchpad_state => "none",
+                : percent => 1.0,
+                : urgent => false,
+                : marks => [],
+                : focused => false,
+                : output => "eDP-1",
+                : layout => "splith",
+                : workspace_layout => "default",
+                : last_split_layout => "splith",
+                : border => "pixel",
+                : current_border_width => 1,
+                : rect => {
+                    : x => 0,: y => 1053,: width => 1920,: height => 27
+                },
+                : deco_rect => {
+                    : x => 0,: y => 0,: width => 0,: height => 0
+                },
+                : window_rect => {
+                    : x => 0,: y => 0,: width => 1920,: height => 27
+                },
+                : geometry => {
+                    : x => 0,: y => 1053,: width => 1920,: height => 27
+                },
+                : name => "i3bar for output eDP-1",
+                : window_icon_padding => -1,
+                : window => 10200677,
+                : window_type => "unknown",
+                : window_properties => {
+                    : class => "i3bar",: instance => "bar-0",: title => "i3bar for output eDP-1",: transient_for => nil
+                },
+                : nodes => [],
+                : floating_nodes => [],
+                : focus => [],
+                : fullscreen_mode => 0,
+                : sticky => false,
+                : floating => "auto_off",
+                : swallows => []
+            }],
+            : floating_nodes => [],
+            : focus => [94783941858848],
+            : fullscreen_mode => 0,
+            : sticky => false,
+            : floating => "auto_off",
+            : swallows => [{
+                : dock => 3,
+                : insert_where => 2
+            }]
+        }],
+        : floating_nodes => [],
+        : focus => [94783941632272, 94783941629168, 94783941635504],
+        : fullscreen_mode => 0,
+        : sticky => false,
+        : floating => "auto_off",
+        : swallows => []
+    }],: floating_nodes => [],: focus => [94783941626064, 94783941616752],: fullscreen_mode => 0,: sticky => false,: floating => "auto_off",: swallows => []
+}

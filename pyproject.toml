@@ -1,0 +1,5 @@
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+i3ipct = "^0.1"
